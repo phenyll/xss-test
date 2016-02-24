@@ -7,7 +7,7 @@ var cheerio = require('cheerio');
 var forms = [];
 var startTime = new Date();
 
-var myCrawler = new Crawler("www.kueche-co.de", "/", 443);
+var myCrawler = new Crawler("www.domain.com", "/", 443);
 myCrawler.maxDepth = 3;
 myCrawler.maxConcurrency = 5;
 myCrawler.interval = 50;
